@@ -28,9 +28,9 @@ void onSensorData(TuyaWaterQualitySensorData &data)
 
 void setup()
 {
-    Serial.begin(9600);
-    Serial1.begin(115200);
-    waterQuality.begin(&Serial);
+    Serial.begin(115200);
+    Serial1.begin(9600);
+    waterQuality.begin(&Serial1);
     waterQuality.onSensorData(onSensorData);
 
     // Enable debug output to Serial
