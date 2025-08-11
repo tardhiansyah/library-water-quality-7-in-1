@@ -1,0 +1,25 @@
+{
+  "name": "WaterQuality7in1",
+  "version": "1.0.0",
+  "keywords": ["tuya", "water quality", "ph", "tds", "temperature", "sensor"],
+  "description": "Arduino based ESP8266 library for Tuya-based 7-in-1 water quality sensor (temperature, pH, TDS, and thresholds).",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tardhiansyah/library-water-quality-7-in-1.git"
+  },
+  "authors": [
+    {
+      "name": "Taufik Ardhiansyah",
+      "email": "tardhiansyah@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "srcDir": "src",
+  "dependencies": {
+    "bblanchon/ArduinoJson": "^7.0.0"
+  },
+  "examples": ["examples/simple.cpp"]
+}
